@@ -30,7 +30,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class StandAloneTest extends BaseTest
 {
 
-	
+	     //Updated Comment for CICD
 		String name="Zara Coat 3";
 		@Test(dataProvider="getData",groups={"Purchase"})
 		public void submitOrder(HashMap<String,String> inp) throws IOException
